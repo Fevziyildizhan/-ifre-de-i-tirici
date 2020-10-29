@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şifre üretici</title>
+
+  
+<link rel="stylesheet" href="şifre üretici.css">
+</head>
+<body>
+    
+ <div class="container">
+
+    <h1 class="title">ŞİFRE ÜRETME</h1>
+    <h3 class="password-display" id="passwordDisplay">ŞİFRE</h3>
+ <form id="passwordGeneratorForm" class="form">
+<label for="characterAmountNumber">Sayı Numaraları</label>
+<div class="character-amount-container">
+ <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+<input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+</div>
+
+<label for="IncludeUpperCase">BÜYÜK HARFLER </label>
+<input type="checkbox"  id="IncludeUpperCase">
+   
+<label for="IncludeLowerCase">BÜYÜK SAYI </label>
+<input type="checkbox"  id="IncludeNumber">
+
+<label for="InculudeSymbols">BÜYÜK SEMBOL </label>
+<input type="checkbox"  id="InculudeSymbols">
+
+
+
+<button type="submit" class="btn"> ŞİFRE ÜRET</button>
+</form>
+</div>
+    <script src='şifre üretici.js'></script>
+
+</body>
+</html>
